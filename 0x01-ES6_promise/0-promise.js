@@ -13,9 +13,3 @@ APIHandler.prototype.getResponseFromAPI = function() {
         }, 2000); // Simulate a 2-second delay for the API call
     });
 };
-
-// Usage
-const apiHandler = new APIHandler();
-apiHandler.getResponseFromAPI()
-    .then(response => console.log(response))
-    .catch(error => console.error(error));
