@@ -1,1 +1,1 @@
-ES Promises in Javascript
+ES6_promises
